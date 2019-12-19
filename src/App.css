@@ -1,0 +1,40 @@
+.myContainer{
+  width: 88%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.myContainer .contact{
+  width: 33%;
+}
+
+.myContainer .theGoods {
+  width: 66%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.theGoods .projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.headerBG {
+  position: relative;
+  z-index: 1;
+  margin-top: 12rem;
+  color: #dedede;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.mrHeader{
+  position: relative;
+  top: -3.25rem;
+  z-index: 100;
+}
