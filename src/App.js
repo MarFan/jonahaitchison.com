@@ -7,6 +7,8 @@ import './App.css';
 import RVnB from './screenshots/rvnb-web25.jpg';
 import RideForLife from './screenshots/rideforlife-web25.jpg';
 import MyFollowers from './screenshots/myfollowers-web25.jpg';
+import SimpleTodo from './screenshots/reducetodo-web25.jpg';
+import SpaceFrontier from './screenshots/space-the-final-frontier-web25.jpg';
 
 const myProjects = [
   {
@@ -26,6 +28,18 @@ const myProjects = [
     img: MyFollowers,
     link: 'https://myfollowers.netlify.com/',
     desc: ''
+  },
+  {
+    title: 'simple todo app',
+    img: SimpleTodo,
+    link: 'https://reducetodo.netlify.com/',
+    desc: ''
+  },
+  {
+    title: 'space the final frontier',
+    img: SpaceFrontier,
+    link: 'https://space-the-final-frontier.now.sh/',
+    desc: ''
   }
 ]
 
@@ -38,10 +52,16 @@ const Contact = () => {
         <Header.Content>
         <List>
           <List.Item>
-            <a href="https://www.linkedin.com/in/jonah-aitchison/" target="_blank" rel="noreferrer noopener"><Icon name="linkedin" color="black" link /> /jonah-aitchison</a>
+            <a href="https://www.linkedin.com/in/jonah-aitchison/" target="_blank" rel="noreferrer noopener">
+              <Icon name="linkedin" color="black" link /> 
+              <span className="linkText">/jonah-aitchison</span>
+            </a>
           </List.Item>
           <List.Item>
-            <a href="https://github.com/MarFan" target="_blank" rel="noreferrer noopener"><Icon name="github" color="black" link /> /marfan</a>
+            <a href="https://github.com/MarFan" target="_blank" rel="noreferrer noopener">
+              <Icon name="github" color="black" link /> 
+              <span className="linkText">/marfan</span>
+            </a>
           </List.Item>
         </List>
         </Header.Content>
@@ -49,7 +69,6 @@ const Contact = () => {
     </>
   )
 }
-
 
 function App() {
   return (

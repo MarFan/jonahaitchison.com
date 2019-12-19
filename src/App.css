@@ -24,6 +24,10 @@
   flex-wrap: wrap;
 }
 
+.theGoods .projects .project {
+  margin-bottom: 1rem;;
+}
+
 .headerBG {
   position: relative;
   z-index: 1;
