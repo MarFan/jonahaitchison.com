@@ -1,48 +1,38 @@
-.myContainer{
-  width: 88%;
-  margin-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
+.App {
+  text-align: center;
 }
 
-.myContainer .contact{
-  width: 33%;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.myContainer .theGoods {
-  width: 66%;
-  margin-left: 1%;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.theGoods .projects {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.App-link {
+  color: #61dafb;
 }
 
-.theGoods .projects .project {
-  margin-bottom: 1rem;;
-}
-
-.headerBG {
-  position: relative;
-  z-index: 1;
-  margin-top: 12rem;
-  color: #dedede;
-  font-size: 4rem;
-  font-weight: bold;
-}
-
-.mrHeader{
-  position: relative;
-  top: -3.25rem;
-  z-index: 100;
-}
-
-.linkText{
-  font-size: 1.5rem;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
