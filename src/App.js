@@ -10,8 +10,8 @@ import readrr from './screenshots/readrr.jpeg';
 import mach20autos from './screenshots/mach20autos.jpeg';
 import Capper from './screenshots/Capper-Auto-Group.jpg';
 import RVnB from './screenshots/rvnb-web25.jpg';
+import RideForLife from './screenshots/rideforlife-web25.jpg';
 
-// import RideForLife from './screenshots/rideforlife-web25.jpg';
 // import MyFollowers from './screenshots/myfollowers-web25.jpg';
 // import SimpleTodo from './screenshots/reducetodo-web25.jpg';
 // import SpaceFrontier from './screenshots/space-the-final-frontier-web25.jpg';
@@ -26,6 +26,12 @@ const myProjects = [
 	img: readrr,
 	link: 'https://github.com/MarFan/betterreads-fe',
 	desc: 'Readrr is a platform that allows users to search its database of books, browse recommendations, and manage their own library. I worked on the front-end for this project and built the BookCard component with React and Redux. This component is used where a book is displayed.  <br /><br />Tech Stack:<br /><ul><li>React</li><li>Redux</li><li>NodeJS</li><li>Express</li><li>PostgreSQL</li><li>Ant Design System</li></ul>'
+  },
+  {
+    title: 'Ride for life',
+    img: RideForLife,
+    link: 'https://github.com/MarFan/Ride-For-Life-Front-End',
+    desc: 'Ride for Life was designed to assist expecting mothers, in need of medical assistance, with transportation. I created the front-end components that allow a user to schedule and summon a driver, using React and Bootstrap.<br /><br />Tech Stack:<br /><ul><li>React</li><li>Bootstrap</li></ul>'
   },
   {
     title: 'RVnb',
@@ -45,12 +51,6 @@ const myProjects = [
 	link: 'https://www.capperautogroup.com/',
 	desc: 'Capper Auto Group is powered by the mach20autos inventory management system. The design is a customized template that is mobile responsive.  The dealer has full control of the data displayed on their website. All inventory changes are made through a mach20autos account.<br /><br />Tech Stack:<br /><ul><li>mach20autos</li><li>Railo</li><li>MySQL</li><li>jQuery</li><li>Bootstrap CSS</li></ul>'
   },
-//   {
-//     title: 'Ride for life',
-//     img: RideForLife,
-//     link: 'https://letsride.netlify.com/',
-//     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quae aliquam nisi non deleniti ipsum in, deserunt corporis ex. Voluptate cupiditate unde nihil et qui debitis natus vero illo consectetur.'
-//   },
 //   {
 //     title: 'My followers',
 //     img: MyFollowers,
