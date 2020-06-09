@@ -31,7 +31,7 @@ const myProjects = [
     title: 'Ride for life',
     img: RideForLife,
     link: 'https://github.com/MarFan/Ride-For-Life-Front-End',
-    desc: 'Ride for Life was designed to assist expecting mothers, in need of medical assistance, with transportation. I created the front-end components that allow a user to schedule and summon a driver, using React and Bootstrap.<br /><br />Tech Stack:<br /><ul><li>React</li><li>Bootstrap</li></ul>'
+    desc: 'Ride For Life was designed to assist expecting mothers, in need of medical assistance, with transportation. I created the front-end components that allow a user to schedule and summon a driver, using React and Bootstrap.<br /><br />Tech Stack:<br /><ul><li>React</li><li>Bootstrap</li></ul>'
   },
   {
     title: 'RVnb',
@@ -115,7 +115,7 @@ function App() {
 	      			</div>
 
 					<p className="mrFluff">
-						I've spent the last 10 years as a full stack web developer at a startup called mach20autos. I built an admin back end, managed the servers, and designed and built the front end. I've built with react, expressjs, javascript, node.js, python and coldfusion. I'm open to conversation from people working on projects that would let me play in cool technologies with fun people.
+						I've spent the last 10 years as a full stack web developer at a startup called mach20autos. I built an admin back end, managed the servers, and designed and built the front end. I've built with react, expressjs, javascript, node.js, python and coldfusion.
 					</p>
 	    		</div>
 	    
