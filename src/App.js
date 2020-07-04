@@ -100,7 +100,7 @@ function App() {
 	        			</div>
 
 						<div className="mrLink">
-	          				<a href="https://drive.google.com/file/d/1b8fvTPuHNeEJGIRBwqg4RYIotzVF0v-H/view?usp=sharing" title="How about a look at Mr. Jonah Aitchison's resume?" target="_blank" rel="noreferrer noopener" onClick={() => Event('Resume', 'Link clicked to view resume', 'RESUME')}>
+	          				<a href="https://drive.google.com/file/d/1EaoSNpuul-PWvVDFwRYAn-4rBDsLRngF/view?usp=sharing" title="How about a look at Mr. Jonah Aitchison's resume?" target="_blank" rel="noreferrer noopener" onClick={() => Event('Resume', 'Link clicked to view resume', 'RESUME')}>
 							  	<FontAwesomeIcon icon={faFileAlt} />	
 	            				<span className="linkText">/resume</span>
 	          				</a>
@@ -123,7 +123,7 @@ function App() {
 					<div className="mrContact">
 						<div><a href="https://www.linkedin.com/in/jonah-aitchison/" title="Connect with Mr. Jonah Aitchison on linkedin" target="_blank" rel="noreferrer noopener" onClick={() => Event('LinkedIn', 'icon clicked to view linkedin', 'LINKEDIN')}><FontAwesomeIcon icon={faLinkedin} /></a></div>
 						<div><a href="https://github.com/MarFan" title="See some of Mr. Jonah Aitchison's code on GitHub" target="_blank" rel="noreferrer noopener" onClick={() => Event('Github', 'icon clicked to view github', 'GITHUB')}><FontAwesomeIcon icon={faGithub} /></a></div>
-						<div><a href="https://drive.google.com/file/d/1b8fvTPuHNeEJGIRBwqg4RYIotzVF0v-H/view?usp=sharing" title="How about a look at Mr. Jonah Aitchison's resume?" target="_blank" rel="noreferrer noopener" onClick={() => Event('Resume', 'icon clicked to view resume', 'RESUME')}><FontAwesomeIcon icon={faFileAlt} /></a></div>
+						<div><a href="https://drive.google.com/file/d/1EaoSNpuul-PWvVDFwRYAn-4rBDsLRngF/view?usp=sharing" title="How about a look at Mr. Jonah Aitchison's resume?" target="_blank" rel="noreferrer noopener" onClick={() => Event('Resume', 'icon clicked to view resume', 'RESUME')}><FontAwesomeIcon icon={faFileAlt} /></a></div>
 						<div><a href="#contact" title="Send Mr. Jonah Aitchison a message." rel="noreferrer noopener" onClick={() => Event('Contact', 'Link clicked to contact Mr. Jonah', 'Contact')}><FontAwesomeIcon icon={faEnvelopeOpen} /></a></div>
 					</div>
 	    		</div>
